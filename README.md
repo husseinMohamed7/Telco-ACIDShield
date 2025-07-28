@@ -11,10 +11,6 @@ This project demonstrates a simplified telecom billing system using SQL Server.
 It highlights how to implement **ACID-compliant transactions** in stored procedures, particularly focusing on a **Subscribe to Bundle** scenario.
 
 ---
-
-📄 [View the full ACID Demo PDF](./Telco_ACIDSheild.pdf)
-
----
 ## Features
 
 - ACID properties implemented and enforced (Atomicity, Consistency, Isolation, Durability)
