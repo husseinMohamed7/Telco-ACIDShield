@@ -1,0 +1,22 @@
+CREATE DATABASE [TelcoACIDShield]
+ON PRIMARY (
+    NAME = N'TelcoACIDShield',
+    FILENAME = N'/var/opt/mssql/data/TelcoACIDShield.mdf',
+    SIZE = 8192KB,
+    FILEGROWTH = 65536KB
+)
+LOG ON (
+    NAME = N'TelcoACIDShield_log',
+    FILENAME = N'/var/opt/mssql/data/TelcoACIDShield_log.ldf',
+    SIZE = 8192KB,
+    FILEGROWTH = 65536KB
+)
+COLLATE SQL_Latin1_General_CP1_CI_AS
+WITH LEDGER = OFF;
+GO
+
+ALTER DATABASE [TelcoACIDShield] SET COMPATIBILITY_LEVEL = 160;
+ALTER DATABASE [TelcoACIDShield] SET RECOVERY FULL;
+ALTER DATABASE [TelcoACIDShield] SET READ_COMMITTED_SNAPSHOT ON; 
+GO
+
