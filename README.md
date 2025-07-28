@@ -91,3 +91,8 @@ erDiagram
   billing_Transactions ||--o{ logs_AuditLog : logs
   core_Accounts ||--o{ billing_CurrentBundle : uses
   billing_Bundles ||--o{ billing_CurrentBundle : assigned
+
+```
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=husseinMohamed7.Telco-ACIDShield" alt="Visitors Badge"/>
+</p>
